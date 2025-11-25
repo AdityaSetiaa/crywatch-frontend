@@ -68,7 +68,7 @@ export default function Navbar() {
       </button>
 
       {open && (
-        <div className="absolute top-20 left-0 w-full bg-zinc-200 backdrop-blur-xl border-b border-zinc-300 p-6 flex flex-col gap-6 text-zinc-900 font-medium md:hidden z-50 duration-800 ease-in-out animate-[fadeSlideIn_0.3s_ease-out]">
+        <div className="absolute top-20 left-0 w-full bg-zinc-200/40 backdrop-blur-xl border-b border-zinc-300 p-6 flex flex-col gap-6 text-zinc-900 font-medium md:hidden z-50 duration-800 ease-in-out animate-[fadeSlideIn_0.3s_ease-out]">
 
           {!loggedIn && (
             <>
