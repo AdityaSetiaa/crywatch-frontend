@@ -24,7 +24,7 @@ export default function Dashboard() {
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
-      console.log("Token in localStorage:", localStorage.getItem("token"));
+      
 
   const token = localStorage.getItem("token");
 

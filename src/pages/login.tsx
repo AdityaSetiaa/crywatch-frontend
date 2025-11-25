@@ -58,7 +58,7 @@ export default function Login() {
           <h1 className="text-4xl font-bold  mb-2 bg-clip-text text-black bg-linear-to-r from-white to-blue-200">
             Welcome Back
           </h1>
-          <p className="text-gray-700">Login to your crypto tracker</p>
+          <p className="text-gray-700">Login to Cryptowatch</p>
         </div>
 
       

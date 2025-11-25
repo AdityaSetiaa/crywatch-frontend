@@ -40,7 +40,7 @@ export default function Signup() {
 
 
   }
-  console.log(email, password, name); 
+  
   return (
     <div className="min-h-screen w-full z-4 flex items-center justify-center px-6 relative overflow-hidden">
       
