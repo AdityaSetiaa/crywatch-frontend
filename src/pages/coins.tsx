@@ -163,7 +163,7 @@ export default function Coins() {
                   <TrendingUp className="w-5 h-5 text-blue-400" />
                 </div>
               </div>
-              <div className="text-3xl font-bold text-white mb-2">
+              <div className="text-3xl font-bold text-black mb-2">
                 ${(totalMarketCap / 1e12).toFixed(2)}T
               </div>
               <div className="flex items-center gap-2 text-green-400 text-sm">
@@ -187,7 +187,7 @@ export default function Coins() {
                     className="w-10 h-10 rounded-full"
                   />
                 </div>
-                <div className="text-2xl font-bold text-white mb-1">
+                <div className="text-2xl font-bold text-black mb-1">
                   {topGainer.name}
                 </div>
                 <div className="flex items-center gap-2 text-green-400 text-lg font-semibold">
@@ -216,7 +216,7 @@ export default function Coins() {
                       className="w-10 h-10 rounded-full"
                     />
                   </div>
-                  <div className="text-2xl font-bold text-white mb-1">
+                  <div className="text-2xl font-bold text-black mb-1">
                     {topLoser.name}
                   </div>
                   <div className="flex items-center gap-2 text-red-400 text-lg font-semibold">
